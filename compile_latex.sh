@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # compile_latex.sh - Robust LaTeX Compilation Script (v2.0)
-# Author: Eric A. Booth
+# Author: Eric A. Booth, TX2036.org, eric.a.booth@gmail.com
 # Usage: ./compile_latex.sh path/to/filename.tex
 
 # Exit on error if any command fails in a way that isn't handled
