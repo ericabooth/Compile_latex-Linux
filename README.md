@@ -25,11 +25,13 @@ The `compile_latex.sh` script automates these 5 steps in one go, using "non-stop
     chmod +x compile_latex.sh
     ```
 
-2.  **Run the script** with your `.tex` file as the argument. You can use absolute or relative paths:
+2.  **Run the script** with your `.tex` file as the argument. You can use the Bash or Perl version:
     ```bash
+    # Bash version
     ./compile_latex.sh hello.tex
-    # OR
-    /home/ericbooth/Documents/compile_latex.sh /home/ericbooth/Documents/hello.tex
+
+    # Perl version
+    ./compile_latex.pl hello.tex
     ```
 
 3.  **Result:** The script will:
