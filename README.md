@@ -1,6 +1,6 @@
 # LaTeX Automation Script
 
-A robust Linux shell script for automating the multi-step compilation process required for complex LaTeX documents (like the Tufte-style book example provided).
+A robust Linux shell script for automating the multi-step compilation process required for complex LaTeX documents (like the Tufte-style book example provided). A Perl script version is also provided for testing or systems that compile via .pl only.
 
 ## 🚀 Overview
 
@@ -47,6 +47,22 @@ The repository includes `hello.tex`, a comprehensive Tufte-Style book template t
 -   Citations and bibliography entries.
 -   Complex indices and cross-references.
 -   Margin figures and full-width environments.
+
+Additional Perl Script: compile_latex.pl
+  This script provides the same robust 5-pass compilation logic as the shell script but is written
+  entirely in Perl.
+
+   * Key Feature: Uses Perl's Cwd and File::Basename modules for platform-independent path
+     handling.
+   * Intelligence: Parses the .aux file to check for citations and detects the .idx file before
+     running the auxiliary tools.
+   * Security Bypass: Just like the Bash version, it switches directories automatically to ensure
+     TeX Live can write its output files correctly.
+
+  Ex: How to use the Perl script/utility:
+
+   1 /home/ericbooth/Documents/compile_latex.pl /home/ericbooth/Documents/hello.tex
+
 
 ## 👤 Author
 
