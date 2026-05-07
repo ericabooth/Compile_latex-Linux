@@ -48,7 +48,8 @@ The repository includes `hello.tex`, a comprehensive Tufte-Style book template t
 -   Complex indices and cross-references.
 -   Margin figures and full-width environments.
 
-Additional Perl Script: compile_latex.pl
+--
+## 🛠️ Additional Perl Script: compile_latex.pl 
   This script provides the same robust 5-pass compilation logic as the shell script but is written
   entirely in Perl.
 
@@ -59,7 +60,7 @@ Additional Perl Script: compile_latex.pl
    * Security Bypass: Just like the Bash version, it switches directories automatically to ensure
      TeX Live can write its output files correctly.
 
-  Ex: How to use the Perl script/utility:
+ _ Ex: _ How to use the Perl script/utility:
 
    1 /home/ericbooth/Documents/compile_latex.pl /home/ericbooth/Documents/hello.tex
 
