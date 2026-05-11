@@ -18,7 +18,7 @@ The `compile_latex.sh` script automates these 5 steps in one go, using "non-stop
 -   **TeX Live** or a similar LaTeX distribution installed.
 -   `pdflatex`, `bibtex`, and `makeindex` available in your PATH.
 
-## 📖 How to Use
+## 📖 How to Use from command line
 
 1.  **Grant Execution Permissions** (if not already set):
     ```bash
